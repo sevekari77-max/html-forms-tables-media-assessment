@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Semantic HTML5 product comparison table.">
+    <title>Product Comparison | HTML5 Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Interactive HTML5 Assessment</h1>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Contact Form</a></li>
+                    <li><a href="table.html" aria-current="page">Product Comparison</a></li>
+                    <li><a href="media.html">Media Demonstration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section aria-labelledby="comparison-heading">
+            <h2 id="comparison-heading">Product Comparison</h2>
+            <p>Semantic table structure is used to compare three example laptops.</p>
+
+            <div class="table-wrapper">
+                <table>
+                    <caption>Comparison of three example developer laptops</caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">Feature</th>
+                            <th scope="col">Developer Air</th>
+                            <th scope="col">Developer Pro</th>
+                            <th scope="col">Developer Ultra</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">Processor</th>
+                            <td>8-core</td>
+                            <td>12-core</td>
+                            <td>16-core</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Memory</th>
+                            <td>16 GB</td>
+                            <td>32 GB</td>
+                            <td>64 GB</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Storage</th>
+                            <td>512 GB SSD</td>
+                            <td>1 TB SSD</td>
+                            <td>2 TB SSD</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Display</th>
+                            <td>14 inch</td>
+                            <td>15.6 inch</td>
+                            <td>16 inch</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Battery</th>
+                            <td>12 hours</td>
+                            <td>10 hours</td>
+                            <td>9 hours</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Best For</th>
+                            <td>Students</td>
+                            <td>Developers</td>
+                            <td>Advanced workloads</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <th scope="row">Assessment Rating</th>
+                            <td colspan="3">All three examples meet the required comparison criteria.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 HTML5 Forms, Tables and Media Assessment.</p>
+        </div>
+    </footer>
+</body>
+</html>

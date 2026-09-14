@@ -1,0 +1,219 @@
+/* Shared styling for the Topic 2 HTML5 assessment. */
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    background: #f5f7fb;
+    line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: min(100% - 2rem, 1050px);
+    margin-inline: auto;
+}
+
+header {
+    background: #172554;
+    color: white;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0 0 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section,
+form {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin: 0 0 1.25rem;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 0.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+label,
+.group-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+}
+
+input:not([type="radio"]):not([type="checkbox"]),
+select,
+textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #94a3b8;
+    border-radius: 6px;
+    font: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 3px solid #bfdbfe;
+}
+
+.choice-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.choice-group label,
+.checkbox-group label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: normal;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.checkbox-group label {
+    margin: 0;
+}
+
+small {
+    display: block;
+    margin-top: 0.25rem;
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    padding: 0.7rem 1.2rem;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font: inherit;
+}
+
+button:hover,
+button:focus {
+    text-decoration: underline;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th,
+td {
+    border: 1px solid #cbd5e1;
+    padding: 0.8rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+thead th {
+    font-weight: bold;
+}
+
+figure {
+    margin: 2rem 0;
+}
+
+figcaption {
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+video,
+iframe {
+    max-width: 100%;
+    border: 1px solid #cbd5e1;
+}
+
+audio {
+    width: min(100%, 600px);
+}
+
+footer {
+    background: #111827;
+    color: white;
+    padding: 1.25rem 0;
+}
+
+@media (max-width: 650px) {
+    .button-group {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+# Topic 2 Final Checklist
+
+- [x] Contact Form
+- [x] POST method
+- [x] Labels linked correctly
+- [x] Text, email, phone, URL, date and number fields
+- [x] Textarea
+- [x] Select dropdown
+- [x] Radio buttons
+- [x] Checkbox
+- [x] File upload
+- [x] Submit and reset buttons
+- [x] Native validation attributes
+- [x] Fieldsets and legends
+- [x] Semantic Product Comparison Table
+- [x] Caption
+- [x] thead / tbody / tfoot
+- [x] th / td
+- [x] scope attributes
+- [x] colspan
+- [x] HTML5 video
+- [x] HTML5 audio
+- [x] YouTube iframe
+- [x] Optional Google Map iframe
+- [x] Figure / figcaption
+- [x] iframe title and sandbox
+- [x] Responsive CSS
+- [ ] Run final HTML validation
+- [ ] Test native browser validation
+- [ ] Record Loom/YouTube demo
+- [ ] Create/push public GitHub repository
+- [ ] Add LMS description/comments
+- [ ] Submit LMS form
